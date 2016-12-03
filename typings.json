@@ -1,0 +1,10 @@
+{
+  "name": "angular-front",
+  "dependencies": {},
+  "globalDevDependencies": {
+    "node": "registry:dt/node#6.0.0+20161121110008"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20161121110008"
+  }
+}

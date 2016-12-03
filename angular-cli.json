@@ -1,0 +1,53 @@
+{
+  "project": {
+    "version": "1.0.0-beta.21",
+    "name": "angular-front"
+  },
+  "apps": [
+    {
+      "root": "src/main/webapp",
+      "outDir": "target/angular",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "tsconfig": "config/tsconfig.json",
+      "prefix": "app",
+      "mobile": false,
+      "styles": [
+        "css/styles.css"
+      ],
+      "scripts": [],
+      "environments": {
+        "source": "config/environments/environment.ts",
+        "dev": "config/environments/environment.ts",
+        "prod": "config/environments/environment.prod.ts"
+      }
+    }
+  ],
+  "addons": [],
+  "packages": [],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "prefixInterfaces": false,
+    "inline": {
+      "style": false,
+      "template": false
+    },
+    "spec": {
+      "class": false,
+      "component": true,
+      "directive": true,
+      "module": false,
+      "pipe": true,
+      "service": true
+    }
+  }
+}
