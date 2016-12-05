@@ -2,9 +2,10 @@
   "name": "angular-front",
   "dependencies": {},
   "globalDevDependencies": {
-    "node": "registry:dt/node#6.0.0+20161121110008"
+    "require": "registry:dt/require#2.1.20+20160919185614"
   },
   "globalDependencies": {
-    "node": "registry:dt/node#6.0.0+20161121110008"
+    "require": "registry:dt/require#2.1.20+20160919185614",
+    "systemjs": "registry:dt/systemjs#0.19.29+20160702105636"
   }
 }

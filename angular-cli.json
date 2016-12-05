@@ -5,8 +5,8 @@
   },
   "apps": [
     {
-      "root": "src/main/webapp",
-      "outDir": "target/angular",
+      "root": "src/main/angular",
+      "outDir": "target/main/angular",
       "assets": [
         "assets",
         "favicon.ico"
@@ -19,7 +19,7 @@
       "styles": [
         "css/styles.css"
       ],
-      "scripts": [],
+      "scripts": ["system.config.js"],
       "environments": {
         "source": "config/environments/environment.ts",
         "dev": "config/environments/environment.ts",
